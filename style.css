@@ -1,0 +1,137 @@
+ul { list-style: none;} 
+
+.mm a {
+    text-decoration: none;
+    color: gray;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+.mm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 18%;
+    font-size: .9375rem;
+    font-weight: 400;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.grid-1 h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    text-align: center;
+}
+
+.grid-1{
+    margin: 50px 300px 60px;
+}
+
+.prg{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 -10px;
+}
+
+[class*=col-] {
+    float: left;
+    min-height: 1px;
+    padding: 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #747474;
+}
+
+.grid_elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+    margin: 3.75rem auto 2.5rem;
+}
+
+.patient{
+    background: #00ccb1;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.grid_elements  h1  {
+    font-size: 1.625em;
+    font-weight: lighter;
+    color: #fff;
+    margin: .3em 0;
+    letter-spacing: -.3px;
+    font-family: 'Work Sans';
+
+}
+
+.grid_elements h2 {
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    letter-spacing: -.3px;
+    font-family: 'Work Sans';
+}
+
+.doctors {
+    background: #3d83df;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.clinics {
+    background: #1b2734;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+article {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+   
+  
